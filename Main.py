@@ -5,7 +5,10 @@
 #   3.
 #   4.
 #   5.
-#   6.
+#   6. Rodriguez Garcia Pedro Uriel
+
+def multiplicacion(a, b):
+    return a * b
 
 def mostrar_menu():
     print("Calculadora Básica")
