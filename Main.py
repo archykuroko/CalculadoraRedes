@@ -16,6 +16,11 @@ def mostrar_menu():
     print("5. Potencia")
     print("6. Salir")
 
+def division(a, b):
+    if b == 0:
+        return "Error: No se puede dividir entre cero"
+    return a / b
+
 def main():
     while True:
         mostrar_menu()
