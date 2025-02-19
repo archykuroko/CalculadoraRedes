@@ -6,6 +6,10 @@
 #   4.
 #   5.
 #   6.
+import math
+
+def potencia(a, b):
+    return math.pow(a,b)
 
 def mostrar_menu():
     print("Calculadora Básica")
