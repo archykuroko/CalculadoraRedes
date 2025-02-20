@@ -7,6 +7,11 @@
 #   5.
 #   6. Rodriguez Garcia Pedro Uriel
 
+
+def suma (a, b):
+    return a + b
+
+
 def multiplicacion(a, b):
     return a * b
 
@@ -46,3 +51,5 @@ def main():
             print("Opción no válida, intente de nuevo.")
 
 main()
+
+
