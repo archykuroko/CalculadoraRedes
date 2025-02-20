@@ -1,10 +1,10 @@
-## Calculadora ##
+## Calculadora colaborativa en Github ##
 # Integrantes:
 #   1.  Escárcega Hernández Steven Arturo
-#   2. 
-#   3.
-#   4.
-#   5.
+#   2.  Dominguez Moreno Fernanda Michelle
+#   3.  Absalón Cortés Sebastián
+#   4.  Flores Osorio Adolfo
+#   5.  
 #   6. Rodriguez Garcia Pedro Uriel
 
 
@@ -20,6 +20,12 @@ def multiplicacion(a, b):
 def potencia(a, b):
     return math.pow(a,b)
 
+def division(a, b):
+    if b == 0:
+        return "Error: No se puede dividir entre cero"
+    return a / b
+
+
 def mostrar_menu():
     print("Calculadora Básica")
     print("1. Suma")
@@ -28,11 +34,6 @@ def mostrar_menu():
     print("4. División")
     print("5. Potencia")
     print("6. Salir")
-
-def division(a, b):
-    if b == 0:
-        return "Error: No se puede dividir entre cero"
-    return a / b
 
 def main():
     while True:
