@@ -8,12 +8,17 @@
 #   6. Rodriguez Garcia Pedro Uriel
 
 
+import math
+
 def suma (a, b):
     return a + b
 
 
 def multiplicacion(a, b):
     return a * b
+
+def potencia(a, b):
+    return math.pow(a,b)
 
 def mostrar_menu():
     print("Calculadora Básica")
