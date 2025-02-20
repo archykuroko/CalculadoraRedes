@@ -26,6 +26,11 @@ def division(a, b):
     return a / b
 
 
+def resta(a,b):
+    return a-b
+
+
+
 def mostrar_menu():
     print("Calculadora Básica")
     print("1. Suma")
@@ -62,5 +67,4 @@ def main():
             print("Opción no válida, intente de nuevo.")
 
 main()
-
 
