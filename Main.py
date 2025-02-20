@@ -5,7 +5,12 @@
 #   3.
 #   4.
 #   5.
-#   6.
+#   6. Rodriguez Garcia Pedro Uriel
+
+def suma (a, b):
+    return a + b
+def multiplicacion(a, b):
+    return a * b
 
 def mostrar_menu():
     print("Calculadora Básica")
@@ -43,3 +48,5 @@ def main():
             print("Opción no válida, intente de nuevo.")
 
 main()
+
+
