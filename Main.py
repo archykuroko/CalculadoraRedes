@@ -43,3 +43,8 @@ def main():
             print("Opción no válida, intente de nuevo.")
 
 main()
+
+
+def resta(a,b):
+    return a-b
+
